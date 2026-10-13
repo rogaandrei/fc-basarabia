@@ -1,0 +1,28 @@
+{
+  "_ajutor": "pozitii: P = portar, A = apărător, M = mijlocaș, T = atacant. Un jucător nou apare automat în lot (la 'Alți jucători') până îi pui aici poziția. diacritice: pagina ligii nu are diacritice, aici pui varianta corectă.",
+  "pozitii": {
+    "Andronic Sergiu": "P",
+    "Mocanu Ion": "P",
+    "Bandol Denis": "A",
+    "Dohotaru Sergiu": "A",
+    "Negru Teodor": "A",
+    "Podelniuc Marin": "A",
+    "Roga Andrei": "A",
+    "Stici Laurentiu": "A",
+    "Bubulici Virgiliu": "M",
+    "Cebotari Andrei": "M",
+    "Guma Daniel": "M",
+    "Zaporojan Nicu": "M",
+    "Vacarita Flavius Alexandru": "M",
+    "Prisac Nicolae": "T",
+    "Rudei Ghenadii": "T",
+    "Garbuz Danu": "T",
+    "Ciugureanu Viorel": "T",
+    "Chirpii Alexei": "T"
+  },
+  "diacritice": {
+    "Stici Laurentiu": "Stici Laurențiu",
+    "Vacarita Flavius Alexandru": "Vacarița Flavius Alexandru",
+    "Cocirlan Stefan": "Cocirlan Ștefan"
+  }
+}
