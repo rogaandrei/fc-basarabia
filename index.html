@@ -8,55 +8,71 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="top"><div class="wrap">Pagina — <span id="pn">Acasă</span></div></div>
 <header><div class="wrap">
-<nav class="l" aria-label="Meniu principal"><a data-n="home" href="#/">Acasă</a><a data-n="echipa" href="#/echipa">Echipa</a><a data-n="meciuri" href="#/meciuri">Meciuri</a></nav>
-<a class="brand" href="#/" aria-label="FC Basarabia, pagina Acasă"><img src="img/logo.png" alt="Sigla FC Basarabia"></a>
-<nav class="r" aria-label="Meniu secundar"><a data-n="clasament" href="#/clasament">Clasament</a><a data-n="galerie" href="#/galerie">Galerie</a><a data-n="contact" href="#/contact">Contact</a></nav>
+<nav class="l" aria-label="Meniu principal" data-ta="aria.main"><a data-n="home" href="#/" data-t="nav.home">Acasă</a><a data-n="echipa" href="#/echipa" data-t="nav.team">Echipa</a><a data-n="meciuri" href="#/meciuri" data-t="nav.matches">Meciuri</a></nav>
+<a class="brand" href="#/" aria-label="FC Basarabia, pagina Acasă" data-ta="aria.brand"><img src="img/logo.png" alt="Sigla FC Basarabia" data-talt="alt.logo"></a>
+<nav class="r" aria-label="Meniu secundar" data-ta="aria.second"><a data-n="clasament" href="#/clasament" data-t="nav.standings">Clasament</a><a data-n="galerie" href="#/galerie" data-t="nav.gallery">Galerie</a><a data-n="contact" href="#/contact" data-t="nav.contact">Contact</a></nav>
 </div></header>
 
 <section class="hero" data-p="home"><div class="wrap">
-<div class="photo"><img src="img/hero.jpg" alt="Echipa FC Basarabia, poză de grup"></div>
-<p class="season">SEZON 2026/2027</p>
+<div class="photo"><img src="img/hero.jpg" alt="Echipa FC Basarabia, poză de grup" data-talt="alt.hero"></div>
+<p class="season" data-t="hero.season">SEZON 2026/2027</p>
 <h1>FC Basarabia</h1>
-<p class="lead">FC Basarabia – o echipă de minifotbal formată din basarabeni uniți prin aceeași pasiune: fotbalul! 🇷🇴<br>Reprezentăm Basarabia cu mândrie pe terenurile din România, prin unitate, respect, ambiție și spirit de echipă. 💙⚽</p>
-<a class="btn p" href="#/echipa">Vezi echipa</a><a class="btn s" href="#/meciuri">Ultimele meciuri</a>
+<p class="lead" data-t="hero.lead">FC Basarabia – o echipă de minifotbal formată din basarabeni uniți prin aceeași pasiune: fotbalul! 🇷🇴<br>Reprezentăm Basarabia cu mândrie pe terenurile din România, prin unitate, respect, ambiție și spirit de echipă. 💙⚽</p>
+<a class="btn p" href="#/echipa" data-t="btn.team">Vezi echipa</a><a class="btn s" href="#/meciuri" data-t="btn.matches">Ultimele meciuri</a>
 </div></section>
 
 <section class="sec" data-p="home clasament"><div class="wrap" style="max-width:1000px">
-<div class="lab">Clasament / Statistici</div>
-<div class="scroll"><table><thead><tr><th>#</th><th>ECHIPĂ</th><th>M</th><th>V</th><th>E</th><th>Î</th><th>GM</th><th>GP</th><th>PCT</th></tr></thead><tbody id="tb"></tbody></table></div>
-<div class="stats"><div><small>GOLURI MARCATE</small><b id="s-gm">—</b></div><div><small>GOLURI PRIMITE</small><b id="s-gp">—</b></div><div><small>VICTORII CONSECUTIVE</small><b id="s-vc">—</b></div></div>
+<div class="lab" data-t="lab.standings">Clasament / Statistici</div>
+<div class="scroll"><table><thead><tr><th>#</th><th data-t="th.team">ECHIPĂ</th><th data-t="th.m">M</th><th data-t="th.v">V</th><th data-t="th.e">E</th><th data-t="th.i">Î</th><th data-t="th.gm">GM</th><th data-t="th.gp">GP</th><th data-t="th.pct">PCT</th></tr></thead><tbody id="tb"></tbody></table></div>
+<div class="stats"><div><small data-t="stat.gm">GOLURI MARCATE</small><b id="s-gm">—</b></div><div><small data-t="stat.gp">GOLURI PRIMITE</small><b id="s-gp">—</b></div><div><small data-t="stat.vc">VICTORII CONSECUTIVE</small><b id="s-vc">—</b></div></div>
 </div></section>
 
 <section class="sec matches" data-p="meciuri"><div class="wrap" style="max-width:1000px">
-<div class="lab">Meciuri / Sezon 2026/2027</div>
+<div class="lab" data-t="lab.matches">Meciuri / Sezon 2026/2027</div>
 <div id="ml"></div>
 </div></section>
 
 <section class="squad" data-p="home"><div class="wrap">
-<div class="lab">Lotul echipei</div>
+<div class="lab" data-t="lab.squad">Lotul echipei</div>
 <div class="grid" id="gr"></div>
 </div></section>
 
 <section class="squad" data-p="echipa"><div class="wrap">
-<div class="lab">Lotul echipei</div>
+<div class="lab" data-t="lab.squad">Lotul echipei</div>
 <p class="info" id="ti"></p>
 <div id="gp"></div>
 </div></section>
 
-<section class="sec" data-p="galerie"><div class="wrap" style="max-width:1000px"><div class="lab">Galerie foto</div><div class="gal" id="gl"></div></div></section>
+<section class="sec" data-p="galerie"><div class="wrap" style="max-width:1000px"><div class="lab" data-t="lab.gallery">Galerie foto</div><div class="gal" id="gl"></div></div></section>
 
 <section class="sec contact" data-p="contact"><div class="wrap">
-<div class="lab">Contact</div>
-<h2>Hai în echipă, hai la meci</h2>
-<p>Ne găsești pe rețelele sociale. Scrie-ne dacă vrei un meci amical, o colaborare sau doar să ne susții la următorul meci din Liga III-B.</p>
-<div class="cg"><a class="cc" href="https://www.facebook.com/fcbasarabia" target="_blank" rel="noopener"><span class="ci"><svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8.2h2.8l.5-3.3h-3.3V8.4c0-.9.3-1.6 1.7-1.6H17V3.9c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.1v2.6H8v3.3h2.6V22h2.9z"/></svg></span><b>Facebook</b><span>/fcbasarabia</span></a><a class="cc" href="https://www.instagram.com/fc__basarabia" target="_blank" rel="noopener"><span class="ci"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg></span><b>Instagram</b><span>@fc__basarabia</span></a><a class="cc" href="https://www.youtube.com/@FCBASARABIA" target="_blank" rel="noopener"><span class="ci"><svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2C2 8.8 2 12 2 12s0 3.2.4 4.8a2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8c.4-1.6.4-4.8.4-4.8s0-3.2-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></span><b>YouTube</b><span>@FCBASARABIA</span></a></div>
+<div class="photo cph"><img src="img/contact.jpg" alt="Echipa FC Basarabia" data-talt="alt.contact"></div>
+<div class="lab" data-t="lab.contact">Contact</div>
+<h2 data-t="contact.h">Hai în echipă, hai la meci</h2>
+<p data-t="contact.p">Ne găsești pe rețelele sociale. Scrie-ne dacă vrei un meci amical, o colaborare sau doar să ne susții la următorul meci din Liga III-B.</p>
+<div class="cg"><a class="cc" href="https://www.facebook.com/fcbasarabia" target="_blank" rel="noopener"><span class="ci"><svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8.2h2.8l.5-3.3h-3.3V8.4c0-.9.3-1.6 1.7-1.6H17V3.9c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.1v2.6H8v3.3h2.6V22h2.9z"/></svg></span><b>Facebook</b><span>/fcbasarabia</span></a><a class="cc" href="https://www.instagram.com/fc__basarabia" target="_blank" rel="noopener"><span class="ci"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg></span><b>Instagram</b><span>@fc__basarabia</span></a><a class="cc" href="https://www.youtube.com/@FCBASARABIA" target="_blank" rel="noopener"><span class="ci"><svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2C2 8.8 2 12 2 12s0 3.2.4 4.8a2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8c.4-1.6.4-4.8.4-4.8s0-3.2-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></span><b>YouTube</b><span>@FCBASARABIA</span></a></div><a class="fanband" href="https://chat.whatsapp.com/IPc7jmt2gsEHcmtbvJUh1o" target="_blank" rel="noopener"><span class="ci"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5v3a1 1 0 0 0 1 1h2.5l8 4.5V5l-8 4.5H4a1 1 0 0 0-1 1z"/><path d="M7.5 14.5l1.2 5h2.6l-1-4.6"/><path d="M18 9.5a3.8 3.8 0 0 1 0 5"/><path d="M20.5 7a7.5 7.5 0 0 1 0 10"/></svg></span><span class="fb-t"><b data-t="fan.h">Fii parte din familia FC Basarabia</b><span data-t="fan.p">Intră în grup, votează favoritul din joc și vino să ne susții pe teren.</span></span><span class="fb-go"><span data-t="fan.b">Vreau în grup</span> <span aria-hidden="true">→</span></span></a>
 </div></section>
 
-<div class="mo" id="mo" role="dialog" aria-modal="true" aria-labelledby="mn"><div class="bx"><div class="ph" id="mph">[poză]</div><h2 id="mn"></h2><p id="mp"></p><dl><dt>Goluri marcate</dt><dd id="mg"></dd></dl><button id="mc">Închide</button></div></div>
-<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Galerie foto"><button id="lbx" aria-label="Închide">×</button><button id="lbp" aria-label="Poza anterioară">‹</button><img id="lbi" alt=""><button id="lbn" aria-label="Poza următoare">›</button></div>
-<footer><div class="wrap"><span>© FC Basarabia<span id="upd"></span></span><span><a href="https://www.facebook.com/fcbasarabia" target="_blank" rel="noopener">Facebook</a> · <a href="https://www.instagram.com/fc__basarabia" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.youtube.com/@FCBASARABIA" target="_blank" rel="noopener">YouTube</a></span></div></footer>
+<section class="sec legal" data-p="confidentialitate"><div class="wrap">
+<div class="lab" data-t="priv.lab">Confidențialitate</div>
+<h2 data-t="priv.h">Politica de confidențialitate</h2>
+<p class="lead" data-t="priv.upd">Ultima actualizare: 14 octombrie 2026</p>
+<h3 data-t="priv.h1">Cine suntem</h3>
+<p data-t="priv.p1">Acest site aparține echipei de minifotbal FC Basarabia (Liga III-B, Alborz Minifotbal Timiș) și are rol informativ: prezintă lotul, meciurile, clasamentul și imagini ale echipei.</p>
+<h3 data-t="priv.h2">Ce date publicăm</h3>
+<p data-t="priv.p2">Pe site apar numele jucătorilor și ale staff-ului, pozele acestora, pozițiile pe teren și golurile marcate. Datele sportive (clasament, program, rezultate) provin din paginile publice ale ligii, alborzminifotbal.ro. Pozele și numele sunt publicate cu acordul persoanelor respective.</p>
+<h3 data-t="priv.h3">Ce date NU colectăm</h3>
+<p data-t="priv.p3">Site-ul nu are conturi, formulare, comentarii sau newsletter. Nu folosim instrumente de analiză a vizitelor, reclame sau cookies proprii și nu colectăm date personale ale vizitatorilor.</p>
+<h3 data-t="priv.h4">Servicii externe</h3>
+<p data-t="priv.p4">Fonturile site-ului se încarcă de la Google Fonts, iar pagina este găzduită pe GitHub Pages. Când deschizi site-ul, aceste servicii pot primi adresa ta IP și date tehnice ale browserului, conform politicilor proprii. Linkurile către Facebook, Instagram, YouTube și WhatsApp te duc pe platforme externe, cu propriile reguli de confidențialitate.</p>
+<h3 data-t="priv.h5">Drepturile tale</h3>
+<p data-t="priv.p5">Dacă apari pe site și vrei să îți fie modificate sau șterse numele ori pozele, ne poți scrie la fcbasarabia@gmail.com sau printr-un mesaj pe paginile noastre de <a href="https://www.facebook.com/fcbasarabia" target="_blank" rel="noopener">Facebook</a> sau <a href="https://www.instagram.com/fc__basarabia" target="_blank" rel="noopener">Instagram</a>. Rezolvăm cererea cât mai repede.</p>
+</div></section>
+
+<div class="mo" id="mo" role="dialog" aria-modal="true" aria-labelledby="mn"><div class="bx"><div class="ph" id="mph">[poză]</div><h2 id="mn"></h2><p id="mp"></p><dl><dt data-t="modal.goals">Goluri marcate</dt><dd id="mg"></dd></dl><button id="mc" data-t="modal.close">Închide</button></div></div>
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Galerie foto" data-ta="aria.gallery"><button id="lbx" aria-label="Închide" data-ta="modal.close">×</button><button id="lbp" aria-label="Poza anterioară" data-ta="aria.prev">‹</button><img id="lbi" alt=""><button id="lbn" aria-label="Poza următoare" data-ta="aria.next">›</button></div>
+<footer class="ft"><div class="wrap"><div class="ft-row"><a class="ft-logo" href="#/" aria-label="Acasă"><img src="img/logo.png" alt="FC Basarabia" width="96" height="96"></a><div class="ft-soc"><div class="lang" id="lang"><button type="button" class="lang-b" id="lang-b" aria-haspopup="true" aria-expanded="false" aria-label="Limba" data-ta="ft.lang"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.6 2.7 3.9 5.7 3.9 9s-1.3 6.3-3.9 9c-2.6-2.7-3.9-5.7-3.9-9S9.4 5.7 12 3z"/></svg><span id="lang-c">RO</span></button><ul class="lang-m" id="lang-m" hidden><li><button type="button" data-l="ro">Română</button></li><li><button type="button" data-l="en">English</button></li><li><button type="button" data-l="ru">Русский</button></li></ul></div><span class="lang-sep" aria-hidden="true"></span><a href="https://www.facebook.com/fcbasarabia" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8.2h2.8l.5-3.3h-3.3V8.4c0-.9.3-1.6 1.7-1.6H17V3.9c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.1v2.6H8v3.3h2.6V22h2.9z"/></svg></a><a href="https://www.instagram.com/fc__basarabia" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg></a><a href="https://www.youtube.com/@FCBASARABIA" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2C2 8.8 2 12 2 12s0 3.2.4 4.8a2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8c.4-1.6.4-4.8.4-4.8s0-3.2-.4-4.8zM10 15V9l5.2 3L10 15z"/></svg></a><a href="https://mail.google.com/mail/?view=cm&fs=1&to=fcbasarabia@gmail.com" target="_blank" rel="noopener" aria-label="fcbasarabia@gmail.com"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 7 8.5 6.5L20.5 7"/></svg></a></div><a class="ft-top" href="#/" onclick="window.scrollTo({top:0,behavior:'smooth'});return false"><span data-t="ft.top">Înapoi sus</span> <span class="ft-arr" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg></span></a></div><div class="ft-bot"><span>Liga III-B · Alborz Minifotbal Timiș<span id="upd"></span></span><span><a href="#/confidentialitate" data-t="ft.priv">Confidențialitate</a> · © FC Basarabia 2026</span></div></div></footer>
 <script src="data.js"></script>
 <script src="script.js"></script>
 </body>
