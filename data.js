@@ -624,8 +624,8 @@ window.__DATA__={
    "time": "19:00",
    "home": "ZF LIFETEC",
    "away": "ATHLETIC",
-   "hs": null,
-   "aw": null
+   "hs": 1,
+   "aw": 5
   },
   {
    "round": 7,
@@ -633,8 +633,8 @@ window.__DATA__={
    "time": "19:00",
    "home": "HUSENII",
    "away": "NOVUM TEAM",
-   "hs": null,
-   "aw": null
+   "hs": 3,
+   "aw": 4
   },
   {
    "round": 7,
@@ -642,8 +642,8 @@ window.__DATA__={
    "time": "20:00",
    "home": "FC BASARABIA",
    "away": "PLOPI",
-   "hs": null,
-   "aw": null
+   "hs": 2,
+   "aw": 2
   },
   {
    "round": 7,
@@ -651,8 +651,8 @@ window.__DATA__={
    "time": "20:00",
    "home": "FC TERRA TIM",
    "away": "BIZCAFFE",
-   "hs": null,
-   "aw": null
+   "hs": 1,
+   "aw": 5
   },
   {
    "round": 7,
@@ -660,8 +660,8 @@ window.__DATA__={
    "time": "21:00",
    "home": "B 32 ARMY",
    "away": "AS VIITORUL IOHANISFELD",
-   "hs": null,
-   "aw": null
+   "hs": 4,
+   "aw": 3
   },
   {
    "round": 7,
@@ -669,8 +669,8 @@ window.__DATA__={
    "time": "21:00",
    "home": "COPIII ZAPEZII",
    "away": "TMT",
-   "hs": null,
-   "aw": null
+   "hs": 3,
+   "aw": 1
   },
   {
    "round": 7,
@@ -678,8 +678,8 @@ window.__DATA__={
    "time": "22:00",
    "home": "VITABOLIC CREW",
    "away": "AS FC REAL TIMISOARA",
-   "hs": null,
-   "aw": null
+   "hs": 4,
+   "aw": 8
   },
   {
    "round": 7,
@@ -687,8 +687,8 @@ window.__DATA__={
    "time": "22:00",
    "home": "LEX TM",
    "away": "UCECOM",
-   "hs": null,
-   "aw": null
+   "hs": 0,
+   "aw": 1
   },
   {
    "round": 8,
@@ -696,8 +696,8 @@ window.__DATA__={
    "time": "14:00",
    "home": "ATHLETIC",
    "away": "UCECOM",
-   "hs": null,
-   "aw": null
+   "hs": 2,
+   "aw": 0
   },
   {
    "round": 8,
@@ -705,8 +705,8 @@ window.__DATA__={
    "time": "15:00",
    "home": "AS FC REAL TIMISOARA",
    "away": "LEX TM",
-   "hs": null,
-   "aw": null
+   "hs": 3,
+   "aw": 0
   },
   {
    "round": 8,
@@ -714,8 +714,8 @@ window.__DATA__={
    "time": "16:00",
    "home": "TMT",
    "away": "VITABOLIC CREW",
-   "hs": null,
-   "aw": null
+   "hs": 8,
+   "aw": 8
   },
   {
    "round": 8,
@@ -723,8 +723,8 @@ window.__DATA__={
    "time": "17:00",
    "home": "AS VIITORUL IOHANISFELD",
    "away": "COPIII ZAPEZII",
-   "hs": null,
-   "aw": null
+   "hs": 5,
+   "aw": 5
   },
   {
    "round": 8,
@@ -732,8 +732,8 @@ window.__DATA__={
    "time": "18:00",
    "home": "BIZCAFFE",
    "away": "B 32 ARMY",
-   "hs": null,
-   "aw": null
+   "hs": 4,
+   "aw": 4
   },
   {
    "round": 8,
@@ -741,8 +741,8 @@ window.__DATA__={
    "time": "19:00",
    "home": "PLOPI",
    "away": "FC TERRA TIM",
-   "hs": null,
-   "aw": null
+   "hs": 4,
+   "aw": 2
   },
   {
    "round": 8,
@@ -750,8 +750,8 @@ window.__DATA__={
    "time": "20:00",
    "home": "NOVUM TEAM",
    "away": "FC BASARABIA",
-   "hs": null,
-   "aw": null
+   "hs": 7,
+   "aw": 2
   },
   {
    "round": 8,
@@ -759,8 +759,8 @@ window.__DATA__={
    "time": "21:00",
    "home": "ZF LIFETEC",
    "away": "HUSENII",
-   "hs": null,
-   "aw": null
+   "hs": 1,
+   "aw": 4
   },
   {
    "round": 9,
@@ -1271,7 +1271,7 @@ window.__DATA__={
   {
    "name": "Andronic Sergiu",
    "goals": 0,
-   "yellow": 0,
+   "yellow": 1,
    "red": 0,
    "pos": "P",
    "photo": null
@@ -1294,7 +1294,7 @@ window.__DATA__={
   },
   {
    "name": "Cebotari Andrei",
-   "goals": 2,
+   "goals": 3,
    "yellow": 1,
    "red": 0,
    "pos": "M",
@@ -1326,7 +1326,7 @@ window.__DATA__={
   },
   {
    "name": "Garbuz Danu",
-   "goals": 3,
+   "goals": 5,
    "yellow": 0,
    "red": 0,
    "pos": "T",
@@ -1366,7 +1366,7 @@ window.__DATA__={
   },
   {
    "name": "Prisac Nicolae",
-   "goals": 0,
+   "goals": 1,
    "yellow": 0,
    "red": 0,
    "pos": "T",
@@ -1375,7 +1375,7 @@ window.__DATA__={
   {
    "name": "Roga Andrei",
    "goals": 0,
-   "yellow": 0,
+   "yellow": 1,
    "red": 0,
    "pos": "A",
    "photo": "img/players/roga-andrei.jpg"
@@ -1415,6 +1415,28 @@ window.__DATA__={
  ],
  "name": "FC Basarabia",
  "season": "2026/2027",
- "gallery": ["img/gallery/01.jpg", "img/gallery/02.jpg", "img/gallery/03.jpg", "img/gallery/04.jpg", "img/gallery/05.jpg", "img/gallery/06.jpg", "img/gallery/07.jpg", "img/gallery/08.jpg", "img/gallery/09.jpg", "img/gallery/10.jpg", "img/gallery/11.jpg", "img/gallery/12.jpg", "img/gallery/13.jpg", "img/gallery/14.jpg", "img/gallery/15.jpg", "img/gallery/16.jpg", "img/gallery/17.jpg", "img/gallery/18.jpg", "img/gallery/19.jpg", "img/gallery/20.jpg", "img/gallery/21.jpg"],
- "updated": "2026-10-13T10:01:54+00:00"
+ "gallery": [
+  "img/gallery/01.jpg",
+  "img/gallery/02.jpg",
+  "img/gallery/03.jpg",
+  "img/gallery/04.jpg",
+  "img/gallery/05.jpg",
+  "img/gallery/06.jpg",
+  "img/gallery/07.jpg",
+  "img/gallery/08.jpg",
+  "img/gallery/09.jpg",
+  "img/gallery/10.jpg",
+  "img/gallery/11.jpg",
+  "img/gallery/12.jpg",
+  "img/gallery/13.jpg",
+  "img/gallery/14.jpg",
+  "img/gallery/15.jpg",
+  "img/gallery/16.jpg",
+  "img/gallery/17.jpg",
+  "img/gallery/18.jpg",
+  "img/gallery/19.jpg",
+  "img/gallery/20.jpg",
+  "img/gallery/21.jpg"
+ ],
+ "updated": "2026-10-14T11:22:17+00:00"
 };
