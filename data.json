@@ -22,27 +22,38 @@
   {
    "pos": 2,
    "team": "AS FC REAL TIMISOARA",
-   "m": 8,
-   "v": 6,
+   "m": 9,
+   "v": 7,
    "e": 0,
    "i": 2,
-   "gm": 44,
-   "gp": 26,
-   "pct": 18
+   "gm": 50,
+   "gp": 29,
+   "pct": 21
   },
   {
    "pos": 3,
-   "team": "UCECOM",
-   "m": 8,
+   "team": "COPIII ZAPEZII",
+   "m": 9,
    "v": 6,
-   "e": 0,
+   "e": 1,
    "i": 2,
-   "gm": 24,
-   "gp": 15,
-   "pct": 18
+   "gm": 37,
+   "gp": 24,
+   "pct": 19
   },
   {
    "pos": 4,
+   "team": "UCECOM",
+   "m": 9,
+   "v": 6,
+   "e": 0,
+   "i": 3,
+   "gm": 27,
+   "gp": 21,
+   "pct": 18
+  },
+  {
+   "pos": 5,
    "team": "NOVUM TEAM",
    "m": 9,
    "v": 5,
@@ -51,17 +62,6 @@
    "gm": 29,
    "gp": 21,
    "pct": 17
-  },
-  {
-   "pos": 5,
-   "team": "COPIII ZAPEZII",
-   "m": 8,
-   "v": 5,
-   "e": 1,
-   "i": 2,
-   "gm": 33,
-   "gp": 22,
-   "pct": 16
   },
   {
    "pos": 6,
@@ -110,27 +110,38 @@
   {
    "pos": 10,
    "team": "AS VIITORUL IOHANISFELD",
-   "m": 8,
+   "m": 9,
    "v": 3,
    "e": 2,
-   "i": 3,
+   "i": 4,
    "gm": 30,
-   "gp": 30,
+   "gp": 33,
    "pct": 11
   },
   {
    "pos": 11,
-   "team": "BIZCAFFE",
-   "m": 8,
-   "v": 2,
-   "e": 4,
-   "i": 2,
-   "gm": 21,
-   "gp": 18,
-   "pct": 10
+   "team": "VITABOLIC CREW",
+   "m": 9,
+   "v": 3,
+   "e": 2,
+   "i": 4,
+   "gm": 36,
+   "gp": 43,
+   "pct": 11
   },
   {
    "pos": 12,
+   "team": "BIZCAFFE",
+   "m": 9,
+   "v": 2,
+   "e": 4,
+   "i": 3,
+   "gm": 23,
+   "gp": 22,
+   "pct": 10
+  },
+  {
+   "pos": 13,
    "team": "B 32 ARMY",
    "m": 9,
    "v": 3,
@@ -141,18 +152,18 @@
    "pct": 10
   },
   {
-   "pos": 13,
-   "team": "VITABOLIC CREW",
-   "m": 8,
-   "v": 2,
+   "pos": 14,
+   "team": "TMT",
+   "m": 9,
+   "v": 1,
    "e": 2,
-   "i": 4,
-   "gm": 33,
-   "gp": 43,
-   "pct": 8
+   "i": 6,
+   "gm": 20,
+   "gp": 38,
+   "pct": 5
   },
   {
-   "pos": 14,
+   "pos": 15,
    "team": "ZF LIFETEC",
    "m": 9,
    "v": 1,
@@ -163,26 +174,15 @@
    "pct": 3
   },
   {
-   "pos": 15,
+   "pos": 16,
    "team": "LEX TM",
-   "m": 8,
+   "m": 9,
    "v": 1,
    "e": 0,
-   "i": 7,
-   "gm": 14,
-   "gp": 31,
+   "i": 8,
+   "gm": 15,
+   "gp": 34,
    "pct": 3
-  },
-  {
-   "pos": 16,
-   "team": "TMT",
-   "m": 8,
-   "v": 0,
-   "e": 2,
-   "i": 6,
-   "gm": 17,
-   "gp": 37,
-   "pct": 2
   }
  ],
  "matches": [
@@ -804,8 +804,8 @@
    "time": "13:00",
    "home": "COPIII ZAPEZII",
    "away": "BIZCAFFE",
-   "hs": null,
-   "aw": null
+   "hs": 4,
+   "aw": 2
   },
   {
    "round": 9,
@@ -813,8 +813,8 @@
    "time": "14:00",
    "home": "VITABOLIC CREW",
    "away": "AS VIITORUL IOHANISFELD",
-   "hs": null,
-   "aw": null
+   "hs": 3,
+   "aw": 0
   },
   {
    "round": 9,
@@ -822,8 +822,8 @@
    "time": "15:00",
    "home": "LEX TM",
    "away": "TMT",
-   "hs": null,
-   "aw": null
+   "hs": 1,
+   "aw": 3
   },
   {
    "round": 9,
@@ -831,8 +831,8 @@
    "time": "16:00",
    "home": "UCECOM",
    "away": "AS FC REAL TIMISOARA",
-   "hs": null,
-   "aw": null
+   "hs": 3,
+   "aw": 6
   },
   {
    "round": 10,
@@ -1438,5 +1438,5 @@
   "img/gallery/20.jpg",
   "img/gallery/21.jpg"
  ],
- "updated": "2026-10-17T10:55:18+00:00"
+ "updated": "2026-10-17T15:43:15+00:00"
 }
