@@ -21,6 +21,17 @@
   },
   {
    "pos": 2,
+   "team": "COPIII ZAPEZII",
+   "m": 10,
+   "v": 7,
+   "e": 1,
+   "i": 2,
+   "gm": 40,
+   "gp": 24,
+   "pct": 22
+  },
+  {
+   "pos": 3,
    "team": "AS FC REAL TIMISOARA",
    "m": 10,
    "v": 7,
@@ -31,7 +42,7 @@
    "pct": 21
   },
   {
-   "pos": 3,
+   "pos": 4,
    "team": "UCECOM",
    "m": 10,
    "v": 7,
@@ -42,58 +53,47 @@
    "pct": 21
   },
   {
-   "pos": 4,
-   "team": "COPIII ZAPEZII",
-   "m": 9,
-   "v": 6,
-   "e": 1,
-   "i": 2,
-   "gm": 37,
-   "gp": 24,
-   "pct": 19
-  },
-  {
    "pos": 5,
    "team": "NOVUM TEAM",
-   "m": 9,
-   "v": 5,
+   "m": 10,
+   "v": 6,
    "e": 2,
    "i": 2,
-   "gm": 29,
-   "gp": 21,
-   "pct": 17
+   "gm": 32,
+   "gp": 22,
+   "pct": 20
   },
   {
    "pos": 6,
    "team": "FC BASARABIA",
-   "m": 9,
-   "v": 4,
+   "m": 10,
+   "v": 5,
    "e": 2,
    "i": 3,
-   "gm": 32,
-   "gp": 27,
-   "pct": 14
+   "gm": 35,
+   "gp": 29,
+   "pct": 17
   },
   {
    "pos": 7,
    "team": "PLOPI",
-   "m": 9,
+   "m": 10,
    "v": 4,
    "e": 2,
-   "i": 3,
+   "i": 4,
    "gm": 26,
-   "gp": 24,
+   "gp": 27,
    "pct": 14
   },
   {
    "pos": 8,
    "team": "FC TERRA TIM",
-   "m": 9,
+   "m": 10,
    "v": 4,
    "e": 2,
-   "i": 3,
-   "gm": 26,
-   "gp": 28,
+   "i": 4,
+   "gm": 31,
+   "gp": 34,
    "pct": 14
   },
   {
@@ -110,12 +110,12 @@
   {
    "pos": 10,
    "team": "HUSENII",
-   "m": 9,
+   "m": 10,
    "v": 4,
    "e": 1,
-   "i": 4,
-   "gm": 30,
-   "gp": 34,
+   "i": 5,
+   "gm": 32,
+   "gp": 37,
    "pct": 13
   },
   {
@@ -143,16 +143,27 @@
   {
    "pos": 13,
    "team": "B 32 ARMY",
-   "m": 9,
+   "m": 10,
    "v": 3,
    "e": 1,
-   "i": 5,
-   "gm": 18,
-   "gp": 26,
+   "i": 6,
+   "gm": 19,
+   "gp": 29,
    "pct": 10
   },
   {
    "pos": 14,
+   "team": "ZF LIFETEC",
+   "m": 10,
+   "v": 2,
+   "e": 0,
+   "i": 8,
+   "gm": 25,
+   "gp": 40,
+   "pct": 6
+  },
+  {
+   "pos": 15,
    "team": "LEX TM",
    "m": 10,
    "v": 2,
@@ -163,7 +174,7 @@
    "pct": 6
   },
   {
-   "pos": 15,
+   "pos": 16,
    "team": "TMT",
    "m": 10,
    "v": 1,
@@ -172,17 +183,6 @@
    "gm": 21,
    "gp": 41,
    "pct": 5
-  },
-  {
-   "pos": 16,
-   "team": "ZF LIFETEC",
-   "m": 9,
-   "v": 1,
-   "e": 0,
-   "i": 8,
-   "gm": 19,
-   "gp": 35,
-   "pct": 3
   }
  ],
  "matches": [
@@ -876,8 +876,8 @@
    "time": "18:00",
    "home": "PLOPI",
    "away": "COPIII ZAPEZII",
-   "hs": null,
-   "aw": null
+   "hs": 0,
+   "aw": 3
   },
   {
    "round": 10,
@@ -885,8 +885,8 @@
    "time": "19:00",
    "home": "NOVUM TEAM",
    "away": "B 32 ARMY",
-   "hs": null,
-   "aw": null
+   "hs": 3,
+   "aw": 1
   },
   {
    "round": 10,
@@ -894,8 +894,8 @@
    "time": "20:00",
    "home": "ZF LIFETEC",
    "away": "FC TERRA TIM",
-   "hs": null,
-   "aw": null
+   "hs": 6,
+   "aw": 5
   },
   {
    "round": 10,
@@ -903,8 +903,8 @@
    "time": "21:00",
    "home": "HUSENII",
    "away": "FC BASARABIA",
-   "hs": null,
-   "aw": null
+   "hs": 2,
+   "aw": 3
   },
   {
    "round": 11,
@@ -1366,7 +1366,7 @@
   },
   {
    "name": "Prisac Nicolae",
-   "goals": 1,
+   "goals": 2,
    "yellow": 0,
    "red": 0,
    "pos": "T",
@@ -1382,7 +1382,7 @@
   },
   {
    "name": "Rudei Ghenadie",
-   "goals": 1,
+   "goals": 2,
    "yellow": 0,
    "red": 1,
    "pos": "T",
@@ -1406,7 +1406,7 @@
   },
   {
    "name": "Zaporojan Nicu",
-   "goals": 0,
+   "goals": 1,
    "yellow": 0,
    "red": 0,
    "pos": "M",
@@ -1438,5 +1438,5 @@
   "img/gallery/20.jpg",
   "img/gallery/21.jpg"
  ],
- "updated": "2026-10-25T16:32:54+00:00"
+ "updated": "2026-10-25T20:57:45+00:00"
 }
