@@ -11,24 +11,24 @@ window.__DATA__={
   {
    "pos": 1,
    "team": "ATHLETIC",
-   "m": 10,
+   "m": 11,
    "v": 8,
    "e": 1,
-   "i": 1,
+   "i": 2,
    "gm": 42,
-   "gp": 18,
+   "gp": 21,
    "pct": 25
   },
   {
    "pos": 2,
    "team": "COPIII ZAPEZII",
-   "m": 10,
-   "v": 7,
+   "m": 11,
+   "v": 8,
    "e": 1,
    "i": 2,
-   "gm": 40,
-   "gp": 24,
-   "pct": 22
+   "gm": 44,
+   "gp": 27,
+   "pct": 25
   },
   {
    "pos": 3,
@@ -54,28 +54,39 @@ window.__DATA__={
   },
   {
    "pos": 5,
-   "team": "NOVUM TEAM",
-   "m": 10,
+   "team": "FC BASARABIA",
+   "m": 11,
    "v": 6,
    "e": 2,
-   "i": 2,
-   "gm": 32,
-   "gp": 22,
+   "i": 3,
+   "gm": 38,
+   "gp": 29,
    "pct": 20
   },
   {
    "pos": 6,
-   "team": "FC BASARABIA",
-   "m": 10,
-   "v": 5,
+   "team": "NOVUM TEAM",
+   "m": 11,
+   "v": 6,
    "e": 2,
    "i": 3,
    "gm": 35,
-   "gp": 29,
-   "pct": 17
+   "gp": 26,
+   "pct": 20
   },
   {
    "pos": 7,
+   "team": "FC TERRA TIM",
+   "m": 11,
+   "v": 5,
+   "e": 2,
+   "i": 4,
+   "gm": 34,
+   "gp": 36,
+   "pct": 17
+  },
+  {
+   "pos": 8,
    "team": "PLOPI",
    "m": 10,
    "v": 4,
@@ -83,17 +94,6 @@ window.__DATA__={
    "i": 4,
    "gm": 26,
    "gp": 27,
-   "pct": 14
-  },
-  {
-   "pos": 8,
-   "team": "FC TERRA TIM",
-   "m": 10,
-   "v": 4,
-   "e": 2,
-   "i": 4,
-   "gm": 31,
-   "gp": 34,
    "pct": 14
   },
   {
@@ -110,12 +110,12 @@ window.__DATA__={
   {
    "pos": 10,
    "team": "HUSENII",
-   "m": 10,
+   "m": 11,
    "v": 4,
    "e": 1,
-   "i": 5,
-   "gm": 32,
-   "gp": 37,
+   "i": 6,
+   "gm": 34,
+   "gp": 40,
    "pct": 13
   },
   {
@@ -143,24 +143,24 @@ window.__DATA__={
   {
    "pos": 13,
    "team": "B 32 ARMY",
-   "m": 10,
+   "m": 11,
    "v": 3,
-   "e": 1,
+   "e": 2,
    "i": 6,
-   "gm": 19,
-   "gp": 29,
-   "pct": 10
+   "gm": 20,
+   "gp": 30,
+   "pct": 11
   },
   {
    "pos": 14,
    "team": "ZF LIFETEC",
-   "m": 10,
+   "m": 11,
    "v": 2,
-   "e": 0,
+   "e": 1,
    "i": 8,
-   "gm": 25,
-   "gp": 40,
-   "pct": 6
+   "gm": 26,
+   "gp": 41,
+   "pct": 7
   },
   {
    "pos": 15,
@@ -912,8 +912,8 @@ window.__DATA__={
    "time": "09:00",
    "home": "FC BASARABIA",
    "away": "ATHLETIC",
-   "hs": null,
-   "aw": null
+   "hs": 3,
+   "aw": 0
   },
   {
    "round": 11,
@@ -921,8 +921,8 @@ window.__DATA__={
    "time": "10:00",
    "home": "FC TERRA TIM",
    "away": "HUSENII",
-   "hs": null,
-   "aw": null
+   "hs": 3,
+   "aw": 2
   },
   {
    "round": 11,
@@ -930,8 +930,8 @@ window.__DATA__={
    "time": "11:00",
    "home": "B 32 ARMY",
    "away": "ZF LIFETEC",
-   "hs": null,
-   "aw": null
+   "hs": 1,
+   "aw": 1
   },
   {
    "round": 11,
@@ -939,8 +939,8 @@ window.__DATA__={
    "time": "12:00",
    "home": "COPIII ZAPEZII",
    "away": "NOVUM TEAM",
-   "hs": null,
-   "aw": null
+   "hs": 4,
+   "aw": 3
   },
   {
    "round": 11,
@@ -1294,7 +1294,7 @@ window.__DATA__={
   },
   {
    "name": "Cebotari Andrei",
-   "goals": 5,
+   "goals": 6,
    "yellow": 1,
    "red": 0,
    "pos": "M",
@@ -1310,7 +1310,7 @@ window.__DATA__={
   },
   {
    "name": "Ciugureanu Viorel",
-   "goals": 6,
+   "goals": 7,
    "yellow": 0,
    "red": 0,
    "pos": "T",
@@ -1326,7 +1326,7 @@ window.__DATA__={
   },
   {
    "name": "Garbuz Danu",
-   "goals": 7,
+   "goals": 8,
    "yellow": 0,
    "red": 0,
    "pos": "T",
@@ -1438,5 +1438,5 @@ window.__DATA__={
   "img/gallery/20.jpg",
   "img/gallery/21.jpg"
  ],
- "updated": "2026-10-25T20:57:45+00:00"
+ "updated": "2026-10-31T12:46:30+00:00"
 };
