@@ -54,6 +54,17 @@ window.__DATA__={
   },
   {
    "pos": 5,
+   "team": "FC BASARABIA",
+   "m": 12,
+   "v": 7,
+   "e": 2,
+   "i": 3,
+   "gm": 45,
+   "gp": 30,
+   "pct": 23
+  },
+  {
+   "pos": 6,
    "team": "NOVUM TEAM",
    "m": 12,
    "v": 7,
@@ -62,17 +73,6 @@ window.__DATA__={
    "gm": 38,
    "gp": 28,
    "pct": 23
-  },
-  {
-   "pos": 6,
-   "team": "FC BASARABIA",
-   "m": 11,
-   "v": 6,
-   "e": 2,
-   "i": 3,
-   "gm": 38,
-   "gp": 29,
-   "pct": 20
   },
   {
    "pos": 7,
@@ -88,12 +88,12 @@ window.__DATA__={
   {
    "pos": 8,
    "team": "FC TERRA TIM",
-   "m": 11,
+   "m": 12,
    "v": 5,
    "e": 2,
-   "i": 4,
-   "gm": 34,
-   "gp": 36,
+   "i": 5,
+   "gm": 35,
+   "gp": 43,
    "pct": 17
   },
   {
@@ -1047,8 +1047,8 @@ window.__DATA__={
    "time": "21:00",
    "home": "FC BASARABIA",
    "away": "FC TERRA TIM",
-   "hs": null,
-   "aw": null
+   "hs": 7,
+   "aw": 1
   },
   {
    "round": 13,
@@ -1278,7 +1278,7 @@ window.__DATA__={
   },
   {
    "name": "Bandol Denis",
-   "goals": 0,
+   "goals": 1,
    "yellow": 0,
    "red": 0,
    "pos": "A",
@@ -1294,7 +1294,7 @@ window.__DATA__={
   },
   {
    "name": "Cebotari Andrei",
-   "goals": 6,
+   "goals": 8,
    "yellow": 1,
    "red": 0,
    "pos": "M",
@@ -1302,7 +1302,7 @@ window.__DATA__={
   },
   {
    "name": "Chirpii Alexei",
-   "goals": 1,
+   "goals": 2,
    "yellow": 0,
    "red": 0,
    "pos": "T",
@@ -1334,7 +1334,7 @@ window.__DATA__={
   },
   {
    "name": "Guma Daniel",
-   "goals": 2,
+   "goals": 3,
    "yellow": 0,
    "red": 0,
    "pos": "M",
@@ -1374,7 +1374,7 @@ window.__DATA__={
   },
   {
    "name": "Roga Andrei",
-   "goals": 0,
+   "goals": 1,
    "yellow": 1,
    "red": 0,
    "pos": "A",
@@ -1390,7 +1390,7 @@ window.__DATA__={
   },
   {
    "name": "Stici Laurențiu",
-   "goals": 0,
+   "goals": 1,
    "yellow": 0,
    "red": 0,
    "pos": "A",
@@ -1438,5 +1438,5 @@ window.__DATA__={
   "img/gallery/20.jpg",
   "img/gallery/21.jpg"
  ],
- "updated": "2026-11-08T19:45:21+00:00"
+ "updated": "2026-11-09T00:59:38+00:00"
 };
