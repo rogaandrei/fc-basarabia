@@ -11,27 +11,38 @@
   {
    "pos": 1,
    "team": "COPIII ZAPEZII",
-   "m": 12,
-   "v": 9,
+   "m": 13,
+   "v": 10,
    "e": 1,
    "i": 2,
-   "gm": 47,
-   "gp": 29,
-   "pct": 28
+   "gm": 50,
+   "gp": 31,
+   "pct": 31
   },
   {
    "pos": 2,
    "team": "ATHLETIC",
-   "m": 12,
-   "v": 8,
+   "m": 13,
+   "v": 9,
    "e": 2,
    "i": 2,
-   "gm": 47,
+   "gm": 50,
    "gp": 26,
-   "pct": 26
+   "pct": 29
   },
   {
    "pos": 3,
+   "team": "FC BASARABIA",
+   "m": 13,
+   "v": 8,
+   "e": 2,
+   "i": 3,
+   "gm": 48,
+   "gp": 30,
+   "pct": 26
+  },
+  {
+   "pos": 4,
    "team": "UCECOM",
    "m": 12,
    "v": 8,
@@ -42,7 +53,7 @@
    "pct": 25
   },
   {
-   "pos": 4,
+   "pos": 5,
    "team": "AS FC REAL TIMISOARA",
    "m": 12,
    "v": 8,
@@ -51,17 +62,6 @@
    "gm": 61,
    "gp": 38,
    "pct": 24
-  },
-  {
-   "pos": 5,
-   "team": "FC BASARABIA",
-   "m": 12,
-   "v": 7,
-   "e": 2,
-   "i": 3,
-   "gm": 45,
-   "gp": 30,
-   "pct": 23
   },
   {
    "pos": 6,
@@ -88,23 +88,23 @@
   {
    "pos": 8,
    "team": "FC TERRA TIM",
-   "m": 12,
+   "m": 13,
    "v": 5,
    "e": 2,
-   "i": 5,
+   "i": 6,
    "gm": 35,
-   "gp": 43,
+   "gp": 46,
    "pct": 17
   },
   {
    "pos": 9,
    "team": "HUSENII",
-   "m": 12,
+   "m": 13,
    "v": 5,
    "e": 1,
-   "i": 6,
-   "gm": 36,
-   "gp": 41,
+   "i": 7,
+   "gm": 38,
+   "gp": 44,
    "pct": 16
   },
   {
@@ -131,17 +131,6 @@
   },
   {
    "pos": 12,
-   "team": "B 32 ARMY",
-   "m": 12,
-   "v": 3,
-   "e": 2,
-   "i": 7,
-   "gm": 21,
-   "gp": 32,
-   "pct": 11
-  },
-  {
-   "pos": 13,
    "team": "AS VIITORUL IOHANISFELD",
    "m": 12,
    "v": 3,
@@ -149,6 +138,17 @@
    "i": 7,
    "gm": 35,
    "gp": 47,
+   "pct": 11
+  },
+  {
+   "pos": 13,
+   "team": "B 32 ARMY",
+   "m": 13,
+   "v": 3,
+   "e": 2,
+   "i": 8,
+   "gm": 21,
+   "gp": 35,
    "pct": 11
   },
   {
@@ -1056,8 +1056,8 @@
    "time": "09:00",
    "home": "FC TERRA TIM",
    "away": "ATHLETIC",
-   "hs": null,
-   "aw": null
+   "hs": 0,
+   "aw": 3
   },
   {
    "round": 13,
@@ -1065,8 +1065,8 @@
    "time": "10:00",
    "home": "B 32 ARMY",
    "away": "FC BASARABIA",
-   "hs": null,
-   "aw": null
+   "hs": 0,
+   "aw": 3
   },
   {
    "round": 13,
@@ -1074,8 +1074,8 @@
    "time": "11:00",
    "home": "COPIII ZAPEZII",
    "away": "HUSENII",
-   "hs": null,
-   "aw": null
+   "hs": 3,
+   "aw": 2
   },
   {
    "round": 13,
@@ -1294,7 +1294,7 @@
   },
   {
    "name": "Cebotari Andrei",
-   "goals": 8,
+   "goals": 9,
    "yellow": 1,
    "red": 0,
    "pos": "M",
@@ -1382,7 +1382,7 @@
   },
   {
    "name": "Rudei Ghenadie",
-   "goals": 2,
+   "goals": 4,
    "yellow": 0,
    "red": 1,
    "pos": "T",
@@ -1438,5 +1438,5 @@
   "img/gallery/20.jpg",
   "img/gallery/21.jpg"
  ],
- "updated": "2026-11-09T00:59:38+00:00"
+ "updated": "2026-11-14T10:39:29+00:00"
 }
