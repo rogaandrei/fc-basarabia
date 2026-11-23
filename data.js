@@ -22,12 +22,12 @@ window.__DATA__={
   {
    "pos": 2,
    "team": "COPIII ZAPEZII",
-   "m": 13,
+   "m": 14,
    "v": 10,
    "e": 1,
-   "i": 2,
-   "gm": 50,
-   "gp": 31,
+   "i": 3,
+   "gm": 52,
+   "gp": 35,
    "pct": 31
   },
   {
@@ -43,6 +43,17 @@ window.__DATA__={
   },
   {
    "pos": 4,
+   "team": "FC BASARABIA",
+   "m": 14,
+   "v": 9,
+   "e": 2,
+   "i": 3,
+   "gm": 52,
+   "gp": 32,
+   "pct": 29
+  },
+  {
+   "pos": 5,
    "team": "AS FC REAL TIMISOARA",
    "m": 14,
    "v": 9,
@@ -51,17 +62,6 @@ window.__DATA__={
    "gm": 72,
    "gp": 46,
    "pct": 28
-  },
-  {
-   "pos": 5,
-   "team": "FC BASARABIA",
-   "m": 13,
-   "v": 8,
-   "e": 2,
-   "i": 3,
-   "gm": 48,
-   "gp": 30,
-   "pct": 26
   },
   {
    "pos": 6,
@@ -87,6 +87,17 @@ window.__DATA__={
   },
   {
    "pos": 8,
+   "team": "FC TERRA TIM",
+   "m": 14,
+   "v": 6,
+   "e": 2,
+   "i": 6,
+   "gm": 39,
+   "gp": 48,
+   "pct": 20
+  },
+  {
+   "pos": 9,
    "team": "HUSENII",
    "m": 14,
    "v": 6,
@@ -95,17 +106,6 @@ window.__DATA__={
    "gm": 43,
    "gp": 46,
    "pct": 19
-  },
-  {
-   "pos": 9,
-   "team": "FC TERRA TIM",
-   "m": 13,
-   "v": 5,
-   "e": 2,
-   "i": 6,
-   "gm": 35,
-   "gp": 46,
-   "pct": 17
   },
   {
    "pos": 10,
@@ -154,12 +154,12 @@ window.__DATA__={
   {
    "pos": 14,
    "team": "B 32 ARMY",
-   "m": 13,
+   "m": 14,
    "v": 3,
    "e": 2,
-   "i": 8,
-   "gm": 21,
-   "gp": 35,
+   "i": 9,
+   "gm": 23,
+   "gp": 39,
    "pct": 11
   },
   {
@@ -1182,8 +1182,8 @@ window.__DATA__={
    "time": "20:00",
    "home": "FC BASARABIA",
    "away": "COPIII ZAPEZII",
-   "hs": null,
-   "aw": null
+   "hs": 4,
+   "aw": 2
   },
   {
    "round": 14,
@@ -1191,8 +1191,8 @@ window.__DATA__={
    "time": "21:00",
    "home": "FC TERRA TIM",
    "away": "B 32 ARMY",
-   "hs": null,
-   "aw": null
+   "hs": 4,
+   "aw": 2
   },
   {
    "round": 15,
@@ -1286,7 +1286,7 @@ window.__DATA__={
   },
   {
    "name": "Bubulici Virgiliu",
-   "goals": 3,
+   "goals": 5,
    "yellow": 1,
    "red": 0,
    "pos": "M",
@@ -1326,7 +1326,7 @@ window.__DATA__={
   },
   {
    "name": "Garbuz Danu",
-   "goals": 8,
+   "goals": 9,
    "yellow": 0,
    "red": 0,
    "pos": "T",
@@ -1342,7 +1342,7 @@ window.__DATA__={
   },
   {
    "name": "Mocanu Ion",
-   "goals": 0,
+   "goals": 1,
    "yellow": 1,
    "red": 0,
    "pos": "P",
@@ -1438,5 +1438,5 @@ window.__DATA__={
   "img/gallery/20.jpg",
   "img/gallery/21.jpg"
  ],
- "updated": "2026-11-22T19:49:33+00:00"
+ "updated": "2026-11-23T01:48:56+00:00"
 };
